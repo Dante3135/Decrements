@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-import ContactCard from "./ContactCard";
+// import ContactCard from "./ContactCard";
 import Numbers from "./Numbers";
-import ContactsTest from "./ContactsTest";
+// import ContactsTest from "./ContactsTest";
 import "./App.css";
 
 class App extends Component {
   render() {
     return (
       <>
-        <ContactsTest
+        {/* <ContactsTest
           name=""
           mobile=""
           work=""
@@ -26,7 +26,7 @@ class App extends Component {
           mobile="3475555555"
           work="5552222222"
           email="mike@example.com"
-        />
+        /> */}
         <Numbers start={5} />
         <Numbers start={15} />
         <Numbers start={50} />
